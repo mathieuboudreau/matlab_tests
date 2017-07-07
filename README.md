@@ -17,10 +17,6 @@ your MATLAB version should be compatible and the software will have completely i
 
 ### Run all tests
 
-Running all tests is a time consuming and processor-intensive process. On a stock MacBook pro, this can take up to 20 
-minutes. You should only need to do this after a fresh install of the software, after updating your MATLAB version, or if an 
-unknown error occurred during your workflow.
-
 To run all tests, from MATLAB (assuming you are already in the qMTLab_Tab1s directory), go to the 'test' subfolder
 
 `cd test/`
@@ -29,8 +25,7 @@ and execute the following command.
 
 `result = runtests(pwd, 'Recursively', true)`
 
-Any failed test should be resolved prior to starting a workflow. Users are invited to raise the issue on the GitHub
-repository: https://github.com/mathieuboudreau/qMTLab_Tab1s/issues
+Any failed test should be resolved prior to starting a workflow.
 
 ### Run Test Suite
 
