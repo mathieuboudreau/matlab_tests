@@ -1,21 +1,29 @@
 # Matlab Tests
 
-This repository provides a working example of Matlab's testing framework.
+This repository provides a working example of MATLAB's testing framework using classes.
 
-## Supported MATLAB versions
+Run `startup.m` to ensure that all files in the repository are added to the MATLAB path.
 
-This software has been tested and is known to work with the following versions:
+See MATLAB's documentation for more details on their framework: https://www.mathworks.com/help/matlab/matlab_prog/write-simple-test-case-using-classes.html
 
-* R2015b (64-bit)
+## Do's and Don'ts of unit testing
 
-If you experience any compatibility issues, please report them through [GitHub](https://github.com/neuropoly/qMTLab/issues).
+### Do
+
+* Create a separate test file for each function/class being tested. 
+
+* Name your tests clearly and consistently .
+
+* Assert a single code feature per test.
+
+### Don't
+
+* Write tests that take a very long time to execute.
+
+* Test multiple code feature in a single test method.
+
 
 ## Tests
-
-After installing the software, we suggest that the you evaluate all the test cases for the software. If all tests pass, then
-your MATLAB version should be compatible and the software will have completely installed correctly. 
-
-### Run all tests
 
 To run all tests, from MATLAB (assuming you are already in the qMTLab_Tab1s directory), go to the 'test' subfolder
 
@@ -24,8 +32,6 @@ To run all tests, from MATLAB (assuming you are already in the qMTLab_Tab1s dire
 and execute the following command.
 
 `result = runtests(pwd, 'Recursively', true)`
-
-Any failed test should be resolved prior to starting a workflow.
 
 ### Run Test Suite
 
@@ -44,7 +50,6 @@ please update the README.md file accordingly.
 Test tags:
 
 * Unit
-
 
 ## Contributing
 
