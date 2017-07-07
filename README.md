@@ -1,6 +1,9 @@
 # Matlab Tests
 
-This repository provides a working example of MATLAB's testing framework using classes.
+This repository provides a working example of MATLAB's testing framework using classes, 
+using a very simple function case (sum of two numbers). In order to see how the test would
+react under a bug, feel free to change the sumNumbers.m functionality (e.g. make it return
+the difference).
 
 Run `startup.m` to ensure that all files in the repository are added to the MATLAB path.
 
