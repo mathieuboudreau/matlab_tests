@@ -28,27 +28,19 @@ See MATLAB's documentation for more details on their framework: https://www.math
 
 ## Tests
 
-To run all tests, from MATLAB (assuming you are already in the qMTLab_Tab1s directory), go to the 'test' subfolder
-
-`cd test/`
-
-and execute the following command.
+To run all tests, from MATLAB (assuming you are already in the qMTLab_Tab1s directory), 
+execute the following command.
 
 `result = runtests(pwd, 'Recursively', true)`
 
 ### Run Test Suite
 
-During development of new features or bug-fixing, it will be preferable to run a test suite relevant to a specific category.
-To do so, go to the 'test' folder
-
-`cd test/`
-
-and run the following command:
+During development of new features or bug-fixing, it may be preferable to run a test suite relevant to a specific category.
+To do so, run the following command:
 
 `result = runTestSuite('Tag')`
 
-substituting `Tag` for one of the following test tags. If you develop new tests and give it a tag which isn't on this list,
-please update the README.md file accordingly.
+substituting `Tag` for one of the following test tags.
 
 Test tags:
 
