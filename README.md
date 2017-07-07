@@ -1,4 +1,4 @@
-# Matlab Tests
+# matlab_tests
 
 This repository provides a working example of MATLAB's testing framework using classes, 
 using a very simple function case (sum of two numbers). In order to see how the test would
