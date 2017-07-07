@@ -1,7 +1,8 @@
-% Test classes are created by using the inheriting (< symbol) from the 
-% Matlab Testing framework.
+% Test classes are created by inheriting (< symbol) the  Matlab Testing 
+% framework.
 %
 % e.g. classdef nameOfTest < matlab.unittest.TestCase
+%      end
 
 classdef (TestTags = {'Unit'}) sumNumbers_Test < matlab.unittest.TestCase 
 %                              It's convention to name the test file 
